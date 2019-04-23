@@ -6,7 +6,7 @@ def count_elements(array)
     if result.has_key?(animal)
       result[animal] += 1
     else
-      result = {animal => 1}
+      result[animal] = 1
       binding.pry
     end
   end
