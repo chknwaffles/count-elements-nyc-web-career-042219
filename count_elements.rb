@@ -9,5 +9,6 @@ def count_elements(array)
       result = {animal => 1}
     end
   end
+  result
 end
  
