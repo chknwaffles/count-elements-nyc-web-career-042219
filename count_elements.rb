@@ -7,7 +7,7 @@ def count_elements(array)
       result[animal] += 1
     else
       result[animal] = 1
-      binding.pry
+      #binding.pry
     end
   end
   result
