@@ -2,6 +2,6 @@ def count_elements(array)
   # code goes here
   result = {}
   arr.each do |animal|
-    result[animal] = 1 unless result.key
+    result[animal] = 1 unless result.has_key?(animal)
 end
  
